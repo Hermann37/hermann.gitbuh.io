@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8"/>
+            <link rel="stylesheet" href="creation.css" />
+            <title>Page d'accueil du HeNNEducated</title>
+        </head>
+        <body>
+            <div id="entete">
+            <header>
+                <h1 id="nom">HeNNEducated</h1>
+                <img src="images/logo.png" alt="logo de l'entreprise" height="100px" width="100px"/>
+                <h2 id="nom2">Bienvenue sur le site d'apprentissage en developpement Web</h2>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">contacts</a></li>                        
+                    <li><a href="#">CV</a></li>
+                </ul>
+            </nav>
+            </div>
+            <section>
+                <aside>
+                   <!-- <h2>Formulaire d'inscription</h2>-->
+
+                        <form method="post" action="form.php">
+                            
+                            <fieldset>
+                                <legend><h2>Formulaire d'inscription</h2></legend> 
+                               <p> <label for="Nom">Nom:</label>
+                                <input type="text" name="Nom" id="Nom" autofocus required/></p>
+                               <p> <label for="Prenom">Prenom:</label>
+                                <input type="hidden" name="Prenom" id="Prenom"/>
+                                <input type="submit" value="envoyer le formulaire"/></p>
+                                <p><label for="Email">Email:</label>
+                                <input type="email" name="email" id="Email"/></p>
+                                <p> <label for="password">Mot de passe:</label>
+                                <input type="password" name="password" id="password"/></p>
+                            </fieldset>
+                        </form>
+                    
+                    <h3>Entrer les informations suivantes en respectant les consignes des infos-bulles</h3>
+
+                </aside>
+            </section>
+
+            <footer>
+                <a href="#"></a><img src="images/html.png" alt="entete journal" height="200px" width="200px"/></a>
+                <a href="#"></a><img src="images/php_mysql.jpg" alt="entete journal" height="200px" width="200px"/></a>
+                <a href="#"></a><img src="images/php.png" alt="entete journal" height="200px" width="200px"/></a>
+                <a href="#"></a><img src="images/js.png" alt="entete journal" height="200px" width="200px"/></a>
+            </footer>
+            
+        </body>
+    </html>

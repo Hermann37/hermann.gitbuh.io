@@ -1,0 +1,112 @@
+header
+{
+  border-radius: 10px 10px 10px 10px; 
+  height: 400px;
+  width: 100%;
+  background: url("images/entete.JPG") no-repeat;
+  background-size: 100%; /* permet de mettre l'image dans tout le fond*/
+  position: relative;/*permet de mettre la boite header comme une reference*/
+}
+#nom
+{
+  color: rgb(86, 93, 99);  
+}
+h1
+{
+  font-family: Impact;/* pour changer la police*/
+  font-style:Italic; /*mettre un style*/
+}
+#nom2
+{
+  position: absolute;
+  bottom: 0;
+  color: rgb(163, 138, 138);
+  height: 33px;
+  width: 99.65%;
+  padding-top: 15px;
+  padding-left: 4px;
+  background-color: rgba(24,24,24,0.8);
+  color: white;
+  text-align: center;
+}
+nav a
+{
+  text-decoration: none;
+  color: black;
+}
+nav a:hover
+{
+  border-bottom: 2px solid;
+}
+#entete
+{
+  display: flex;
+  flex-direction: row-reverse; /*ranger les boites à l'envers*/WX
+  align-items: space-around; /*mettre de l'espace entre les box*/
+  justify-content: flex-end; /*mettre les contenus en bas*/
+}
+footer
+{
+  display: flex;
+  justify-content: space-around;
+}
+footer img
+{
+  border-radius: 10px;
+}
+footer img:hover
+{
+  transform: scale(0.75);
+  transition: 0.5s;
+}
+nav
+{
+  margin-right: 10px;
+  background-color: rgb(224, 228, 224);
+  padding-top: 125px;
+  padding-bottom: 125px;
+  border-radius: 10px;
+  padding-right: 5%;
+}
+body
+{
+  background-color: rgb(232, 241, 240);
+  position: relative;
+  background: url("images/geek3.jpg") no-repeat;
+  background-size: 100%;
+}
+aside
+{
+  height: 400px;
+  width: auto;
+  margin: 50px;
+  /*border: 1px solid;*/
+  border-radius: 10px 10px;
+  background-size: 100%;
+  color: rgba(24,24,24,1)
+}
+aside h2
+{
+  text-align: center;
+}
+nav ul 
+{
+  list-style-type: none; /*enlever les points ou tirets*/
+}
+nav li 
+{
+  margin-top: 15px;
+}
+
+
+/* pour les petites résolutions */
+
+@media screen and (max-width: 700px)
+{
+  
+  header
+  {
+    background: none;
+  }
+
+}
